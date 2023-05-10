@@ -1,0 +1,33 @@
+.container{
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: -4px 0 16px -1px rgba(52, 92, 124, 0.2);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.title{
+    font-weight: bold;
+    color: #4285F4;
+}
+.form__input{
+    padding: 5px;
+    color: #747179;
+    background-color: rgba(0,0,0, 0.1);
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+}
+.label{
+    align-self: start;
+    font-weight: bolder;
+    color: rgba(0,0,0, 0.5);
+}

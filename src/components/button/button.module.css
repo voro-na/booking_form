@@ -1,0 +1,25 @@
+.btn {
+    width: 300px;
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.inactive{
+    background-color: rgba(0,0,0, 0.1);
+    font-weight: bolder;
+    color: rgba(0,0,0, 0.5);
+    transition: 0.4s;
+}
+.inactive:hover{
+    color: #4285F4;
+    background-color: rgba(0,0,0, 0.2);
+}
+.active{
+    transition: 0.4s;
+}
+.active:hover{
+    background-color: #3670d2;
+}
